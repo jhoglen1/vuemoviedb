@@ -29,5 +29,12 @@
     h1 {
         margin: 0;
     }
+    a, a:visited {
+    color: inherit;
+    text-decoration: none;
+}
+ a:hover{
+    color: red;
+}
 
 </style>
