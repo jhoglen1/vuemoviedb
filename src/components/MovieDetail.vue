@@ -24,15 +24,16 @@ const  BACKDROP_PATH = " http://image.tmdb.org/t/p/w1280";
         created: function() {
             this.fetchData();
         },
-        computed: {
+       computed: {
             styles() {
                 return {
-                    background: `url(${BACKDROP_PATH}/${this.movie.backdrop_path}) no-repeat`
+                    background: `url(${BACKDROP_PATH}/${this.movie.backdrop_path})  no-repeat`
+   
                     
 
                 }
             }
-        },
+        }, 
         methods:{
             fetchData: async function(){
                 try {
@@ -57,12 +58,13 @@ const  BACKDROP_PATH = " http://image.tmdb.org/t/p/w1280";
   
 }
 .movie-info{
-     background: white;
+     background: red;
      color: #222;
      padding: 2rem 10%;
    
 
 }
+
  .fade-enter-active,
  .fade-leave-active{
      transition: all 0.3s ease;

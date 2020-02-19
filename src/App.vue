@@ -20,7 +20,7 @@ export default {
   data(){
     return {
    
-      title: 'Movies now playing',
+      title: 'Movies now not playing',
      
     };
   },
